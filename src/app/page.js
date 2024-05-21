@@ -37,18 +37,19 @@ export default function Home() {
         <div className='bg-blue-300 flex items-center justify-center h-full'>
           <Image
             src='/images/egg.jpg'
-            alt='Picture of the author'
+            alt='egg'
             width='0'
             height='0'
             sizes='100vw'
             className='w-full h-fit'
             style={{ objectFit: "contain" }}
+            priority
           />
         </div>
         <div className='bg-blue-300 flex items-center justify-center h-full order-2 md:order-1'>
           <Image
             src='/images/peach.jpg'
-            alt='Picture of the author'
+            alt='peach'
             width='0'
             height='0'
             sizes='100vw'
@@ -69,7 +70,7 @@ export default function Home() {
         <div className='bg-blue-300 flex items-center justify-center bg-cover order-1 md:order-2'>
           <Image
             src='/images/cherry.jpg'
-            alt='Picture of the author'
+            alt='cherry'
             width='0'
             height='0'
             sizes='100vw'
@@ -79,7 +80,7 @@ export default function Home() {
         <div className='bg-blue-300 flex items-center justify-center bg-cover order-3 md:order-2'>
           <Image
             src='/images/lemon.jpg'
-            alt='Picture of the author'
+            alt='lemon'
             width='0'
             height='0'
             sizes='100vw'
