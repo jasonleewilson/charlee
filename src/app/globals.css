@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --foreground-rgb: 0,0,0;
-  --background-start-rgb: 255, 192, 203;
-  --background-end-rgb: 255, 192, 203;
+  /* --background-start-rgb: 255, 192, 203;
+  --background-end-rgb: 255, 192, 203; */
 }
 
-/* @media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -18,9 +20,12 @@
 
 html, body {
   height: 100%;
+  background: #fff;
+  /* background: #ffc0cb; */
+  /* background: rgb(255, 192, 203) */
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -28,6 +33,12 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+h1 {
+  font-family: "The Nautigal", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @layer utilities {
