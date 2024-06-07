@@ -20,7 +20,7 @@ export default function about() {
           tells people to visit{" "}
           <a
             href='https://charlee.io/'
-            target='_blank'
+            target='_self'
             className='text-red-500 hover:underline'
           >
             Charlee.io
