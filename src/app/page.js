@@ -29,8 +29,9 @@ export default function Home() {
               {companyName} IS GOING TO BE THE BEST
             </h2>
             <p>
-              {companyName} will be here summer 2024. She is my daughter, and I
-              wanted to lock in a domain for her.
+              Hi! I&apos;m {companyName} arriving here this summer of 2024! My
+              dad built this site specially for me so I will always have my own
+              domain name! I can&apos;t wait to meet everyone!
             </p>
           </div>
         </div>
