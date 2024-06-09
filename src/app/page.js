@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className='bg-blue-300 flex items-center justify-center h-full'>
           <Image
-            src='/images/egg.jpg'
+            src='/images/egg.webp'
             alt='egg'
             width='0'
             height='0'
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <div className='bg-blue-300 flex items-center justify-center h-full order-2 md:order-1'>
           <Image
-            src='/images/peach.jpg'
+            src='/images/peach.webp'
             alt='peach'
             width='0'
             height='0'
@@ -70,7 +70,7 @@ export default function Home() {
         </div>
         <div className='bg-blue-300 flex items-center justify-center bg-cover order-1 md:order-2'>
           <Image
-            src='/images/cherry.jpg'
+            src='/images/cherry.webp'
             alt='cherry'
             width='0'
             height='0'
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
         <div className='bg-blue-300 flex items-center justify-center bg-cover order-3 md:order-2'>
           <Image
-            src='/images/lemon.jpg'
+            src='/images/lemon.webp'
             alt='lemon'
             width='0'
             height='0'
@@ -92,7 +92,7 @@ export default function Home() {
           <Image
             layout='fill'
             className='object-center object-cover pointer-events-none'
-            src='/images/cherry.jpg'
+            src='/images/cherry.webp'
             alt='TITLE HERE'
           />
           <div className='relative z-1'>my content</div>
