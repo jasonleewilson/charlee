@@ -11,7 +11,7 @@ module.exports = {
         pink: "#ffc0cb",
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/charlee1.jpg')",
+        "bg-homepage-hero": "url('/images/charlee1.jpg')",
       },
       //   backgroundImage: {
       //     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

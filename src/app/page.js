@@ -7,7 +7,7 @@ const companyName = "Charlee";
 export default function Home() {
   return (
     <main className='grid place-items-center'>
-      <div className='hero bg-pink grid place-items-center bg-[url("/images/charlee1.jpg")]'>
+      <div className='hero bg-pink grid place-items-center bg-bg-homepage-hero'>
         <div className='text-center md:py-64'>
           <Image
             src='./bunny.svg'
