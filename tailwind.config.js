@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         pink: "#ffc0cb",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/images/charlee1.jpg')",
+      },
       //   backgroundImage: {
       //     "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       //     "gradient-conic":

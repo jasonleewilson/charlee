@@ -7,7 +7,7 @@ const companyName = "Charlee";
 export default function Home() {
   return (
     <main className='grid place-items-center'>
-      <div className='hero bg-pink grid place-items-center'>
+      <div className='hero bg-pink grid place-items-center bg-[url("/images/charlee1.jpg")]'>
         <div className='text-center md:py-64'>
           <Image
             src='./bunny.svg'
@@ -25,12 +25,12 @@ export default function Home() {
       <div className='grid grid-cols-1 md:grid-cols-2 w-full'>
         <div className='bg-white text-black px-16 py-12 text-left flex items-center justify-center h-full'>
           <div>
-            <h2 className='text-xl font-bold'>
-              {companyName} IS GOING TO BE THE BEST
+            <h2 className='text-xl font-bold uppercase'>
+              {companyName} IS THE BEST
             </h2>
             <p>
-              Hi! I&apos;m {companyName} arriving here this summer of 2024! My
-              dad built this site specially for me so I will always have my own
+              Hi! I&apos;m {companyName} arrived the summer of 2024! My dad
+              built this site specially for me so I will always have my own
               domain name! I can&apos;t wait to meet everyone!
             </p>
           </div>
@@ -59,12 +59,12 @@ export default function Home() {
         </div>
         <div className='bg-white text-black px-16 py-12 text-left flex items-center justify-center h-full order-1 md:order-2'>
           <div>
-            <h2 className='text-xl font-bold'>
-              {companyName} CANT WAIT TO MEET HER
+            <h2 className='text-xl font-bold uppercase'>
+              {companyName} WE FINALLY GET TO MEET HER
             </h2>
             <p>
-              The future with {companyName} is coming soon, she will shock the
-              world and be such a perfect little angel. More to come...
+              The future with {companyName} is here, she is shocking the world
+              and is such a perfect little angel. More to come...
             </p>
           </div>
         </div>
