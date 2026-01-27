@@ -1,5 +1,6 @@
 import Image from "next/image";
 // import profilePic from "../app/";
+import Link from "next/link";
 export const runtime = "edge";
 import "animate.css";
 const companyName = "Charlee";
@@ -66,6 +67,8 @@ export default function Home() {
               The future with {companyName} is here, she is shocking the world
               and is such a perfect little angel. More to come...
             </p>
+            <br />
+            <Link href='/about' className="mt-8">Learn More</Link>
           </div>
         </div>
         <div className='bg-blue-300 flex items-center justify-center bg-cover order-1 md:order-2'>

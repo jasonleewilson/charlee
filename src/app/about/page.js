@@ -26,7 +26,7 @@ export default function about() {
             Charlee.io
           </a>{" "}
           to stay updated! Summers are great, so I&apos;m looking forward to my
-          second one! To check out more of my father&apos;s work, visit{" "}
+          second one! To check out more of my daddy&apos;s work, visit{" "}
           <a
             href='https://jasonleewilson.com/'
             target='_blank'
@@ -35,7 +35,16 @@ export default function about() {
             jasonleewilson.com
           </a>{" "}
           he&apos;s done some pretty awesome stuff from what I overheard in
-          mommas belly! She&apos;s so happy too! See you soon! Xo!
+          mommas belly! She&apos;s so happy too! 
+          Visit{" "}
+          <a
+            href='https://pressonthese.com/'
+            target='_blank'
+            className='text-red-500 hover:underline'
+          >
+            pressonthese.com
+          </a>{" "} to see her custom press-on nail too.
+          See you soon! Xo!
           <br />
           <br />~ {companyName}
         </p>
