@@ -43,7 +43,7 @@ export default function about() {
             className='text-red-500 hover:underline'
           >
             pressonthese.com
-          </a>{" "} to see her custom press-on nail too.
+          </a>{" "} to see her custom press-on nail too. They are pretty.
           See you soon! Xo!
           <br />
           <br />~ {companyName}
